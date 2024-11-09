@@ -1,0 +1,56 @@
+const data = [
+    {
+        name:"C",
+        src:"./resource/c.png"
+    },
+    {
+        name:"C++",
+        src:"./resource/cpp.png"
+    },
+    {
+        name:"Java",
+        src:"./resource/java.png"
+    },
+    {
+        name:"Python",
+        src:"./resource/python.png"
+    },
+    {
+        name:"Javascript",
+        src:"./resource/js.png"
+    },
+    {
+        name:"PHP",
+        src:"./resource/php.png"
+    },
+    {
+        name:"React",
+        src:"./resource/react.png"
+    },
+    {
+        name:"Node JS",
+        src:"./resource/node.png"
+    },
+    {
+        name:"Express",
+        src:"./resource/express.png"
+    },
+    {
+        name:"MongoDB",
+        src:"./resource/mongo.png"
+    },
+    {
+        name:"Bootstrap",
+        src:"./resource/bootstrap.png"
+    },
+    {
+        name:"Git",
+        src:"./resource/git.png"
+    },
+    {
+        name:"Linux",
+        src:"./resource/linux.png"
+    }
+];
+
+export default data;
