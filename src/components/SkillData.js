@@ -1,55 +1,69 @@
+import C from '/resource/c.png';
+import CPP from "/resource/cpp.png";
+import Java from '/resource/java.png';
+import Python from '/resource/python.png';
+import JS from '/resource/js.png';
+import php from '/resource/php.png';
+import React from '/resource/react.png';
+import Node from '/resource/node.png';
+import Express from '/resource/express.png';
+import Mongo from '/resource/mongo.png';
+import Bootstrap from '/resource/bootstrap.png';
+import Git from '/resource/git.png';
+import Linux from '/resource/linux.png';
+
 const data = [
     {
         name:"C",
-        src:"./resource/c.png"
+        src:C
     },
     {
         name:"C++",
-        src:"./resource/cpp.png"
+        src:CPP
     },
     {
         name:"Java",
-        src:"./resource/java.png"
+        src:Java
     },
     {
         name:"Python",
-        src:"./resource/python.png"
+        src:Python
     },
     {
         name:"Javascript",
-        src:"./resource/js.png"
+        src:JS
     },
     {
         name:"PHP",
-        src:"./resource/php.png"
+        src:php
     },
     {
         name:"React",
-        src:"./resource/react.png"
+        src:React
     },
     {
         name:"Node JS",
-        src:"./resource/node.png"
+        src:Node
     },
     {
         name:"Express",
-        src:"./resource/express.png"
+        src:Express
     },
     {
         name:"MongoDB",
-        src:"./resource/mongo.png"
+        src:Mongo
     },
     {
         name:"Bootstrap",
-        src:"./resource/bootstrap.png"
+        src:Bootstrap
     },
     {
         name:"Git",
-        src:"./resource/git.png"
+        src:Git
     },
     {
         name:"Linux",
-        src:"./resource/linux.png"
+        src:Linux
     }
 ];
 

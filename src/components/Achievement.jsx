@@ -1,6 +1,11 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
 import {motion} from 'framer-motion'
+import BOS from '/resource/bos.jpg';
+import AT from '/resource/topper.jpg';
+import NSSE from '/resource/nsse.jpg';
+import TENTH from '/10thtrophy.jpg';
+import CHEMIST from '/chemisttrophy.jpg';
 
 export default function Achievements() {
     const pageVariants = {
@@ -39,7 +44,7 @@ export default function Achievements() {
                 >
                     <div className='col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12 text-white p-2'>
                         <Card bg={'dark'} className='pointer shadow-card'>
-                            <Card.Img variant="top" src="./resource/bos.jpg" className='card-image' />
+                            <Card.Img variant="top" src={BOS} alt='bos' className='card-image' />
                             <Card.Body>
                                 <Card.Title className='text-center text-light'>Best Outgoing Student</Card.Title>
                                 <Card.Text className='text-center text-light'>
@@ -50,7 +55,7 @@ export default function Achievements() {
                     </div>
                     <div className='col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12 text-black p-2'>
                     <Card bg={'dark'} className='pointer shadow-card'>
-                            <Card.Img variant="top" src="./resource/topper.jpg" className='card-image' />
+                            <Card.Img variant="top" src={AT} alt='AT' className='card-image' />
                             <Card.Body>
                                 <Card.Title className='text-center text-light'>Academic Topper</Card.Title>
                                 <Card.Text className='text-center text-light'>
@@ -61,7 +66,7 @@ export default function Achievements() {
                     </div>
                     <div className='col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12 text-black p-2'>
                     <Card bg={'dark'} className='pointer shadow-card'>
-                            <Card.Img variant="top" src="./resource/nsse.jpg" className='card-image' />
+                            <Card.Img variant="top" src={NSSE} alt='NSSE' className='card-image' />
                             <Card.Body>
                                 <Card.Title className='text-center text-light'>State Rank 10</Card.Title>
                                 <Card.Text className='text-center text-light'>
@@ -72,7 +77,7 @@ export default function Achievements() {
                     </div>
                     <div className='col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12 text-black p-2'>
                     <Card bg={'dark'} className='pointer shadow-card'>
-                            <Card.Img variant="top" src="./10thtrophy.jpg" className='card-image' />
+                            <Card.Img variant="top" src={TENTH} className='card-image' />
                             <Card.Body>
                                 <Card.Title className='text-center text-light'>2nd Rank in 10th Standard</Card.Title>
                                 <Card.Text className='text-center text-light'>
@@ -83,7 +88,7 @@ export default function Achievements() {
                     </div>
                     <div className='col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12 text-black p-2'>
                     <Card bg={'dark'} className='pointer shadow-card'>
-                            <Card.Img variant="top" src="./chemisttrophy.jpg" className='card-image' />
+                            <Card.Img variant="top" src={CHEMIST} className='card-image' />
                             <Card.Body>
                                 <Card.Title className='text-center text-light'>2nd Rank in District Level Essay Competation</Card.Title>
                                 <Card.Text className='text-center text-light'>

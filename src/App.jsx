@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom"
+import { HashRouter as Router, Route, Routes, useLocation } from "react-router-dom"
 import NavBar from "./components/Navbar"
 import Home from "./components/Home"
 import About from "./components/About"
@@ -7,13 +7,14 @@ import Achievements from "./components/Achievement"
 import { AnimatePresence } from 'framer-motion';
 
 function App() {
-
+  const name = String(import.meta.env.VITE_PUBLIC_URL);
+  console.log(name);
   return (
     // <div className="container-fluid">
-    <BrowserRouter>
+    <Router >
         <NavBar/>
         <AnimatedRoutes/>
-    </BrowserRouter>
+    </Router>
     // </div>
   )
 }
